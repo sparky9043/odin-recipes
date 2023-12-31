@@ -1,3 +1,17 @@
 body {
     background-color: coral;
+    font-family: Courier, sans-serif, serif, Arial, Times;
+    text-align: center;
+}
+
+a:visited {
+    color: rgb(58, 58, 197);
+}
+
+.ingredient-list a:hover {
+    color: rgba(49, 47, 47, 0.836);
+}
+
+.ingredient-list a {
+    font-weight: 400;
 }
