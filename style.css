@@ -3,8 +3,12 @@ body {
     font-family: Courier, sans-serif, serif, Arial, Times;
 }
 
-.container-index {
+.container {
     text-align: center;
+}
+
+.wellington {
+    text-align: left;
 }
 
 a:visited {
