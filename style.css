@@ -1,6 +1,9 @@
 body {
     background-color: coral;
     font-family: Courier, sans-serif, serif, Arial, Times;
+}
+
+.container-index {
     text-align: center;
 }
 
