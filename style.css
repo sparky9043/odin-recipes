@@ -1,6 +1,9 @@
 body {
     background-color: coral;
     font-family: Courier, sans-serif, serif, Arial, Times;
+    background-image: url("images/kitchen.jpg");
+    background-size: cover;
+    border: 2px solid black;
 }
 
 .container {
@@ -20,5 +23,8 @@ a:visited {
 }
 
 .ingredient-list a {
-    font-weight: 400;
+    font-weight: 500;
+    background-color: #594e4e99;
+    color: #FFFFFFAA;
+    text-decoration: none;
 }
