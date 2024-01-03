@@ -5,33 +5,42 @@ body#index {
     background-size: cover;
     border: 2px solid black;
     border-radius: 4px;
+    max-width: 400px;
+    max-height: auto;
+    margin: 5% auto;
+    padding-bottom: 10px;
 }
 
 .container.index {
     text-align: center;
 }
 
+
 .wellington {
     text-align: left;
 }
 
 a:visited {
-    color: rgb(58, 58, 197);
+    color: #ffffffd3;
 }
 
 .ingredient-list.index a:hover {
-    color: rgba(49, 47, 47, 0.836);
+    color: rgba(18, 17, 17, 0.836);
 }
 
 h1, 
 .ingredient-list.index a {
     font-weight: 500;
     background-color: #594e4e99;
-    color: #FFFFFFAA;
+    color: #ffffffd3;
     text-decoration: none;
 }
 
 h1 {
     display: inline-block;
     font-weight: 700;
+}
+
+h1:hover {
+    color: rgba(18, 17, 17, 0.836);
 }
