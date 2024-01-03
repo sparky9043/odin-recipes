@@ -7,7 +7,7 @@ body#index {
     border-radius: 4px;
 }
 
-.container {
+.container.index {
     text-align: center;
 }
 
@@ -19,12 +19,12 @@ a:visited {
     color: rgb(58, 58, 197);
 }
 
-.ingredient-list a:hover {
+.ingredient-list.index a:hover {
     color: rgba(49, 47, 47, 0.836);
 }
 
 h1, 
-.ingredient-list a {
+.ingredient-list.index a {
     font-weight: 500;
     background-color: #594e4e99;
     color: #FFFFFFAA;
