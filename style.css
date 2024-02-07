@@ -1,10 +1,18 @@
 /* main page CSS */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
+}
+
+/* Fonts */
+.young-serif {
+    font-family: 'Young Serif';
+}
+
+.outfit {
+    font-family: 'Outfit';
 }
 
 body {
@@ -13,27 +21,27 @@ body {
 }
 
 .header {
-    text-transform: uppercase;
     text-align: center;
     padding: 1em;
     margin: 1em;
     text-shadow: 0 0 5px grey;
+    font-size: 1.2em;
 }
 
 .container {
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-    max-width: 1600px;
-    border: 2px solid rgb(197, 134, 57);
+    justify-content: space-evenly;
+    max-width: 1400px;
     padding: 2em;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .recipes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 1em;
+    gap: 2em;
 }
 
 
