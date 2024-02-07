@@ -15,6 +15,10 @@
     font-family: 'Outfit';
 }
 
+.bold {
+    font-weight: 400;
+}
+
 body {
     width: 100%;
     background-color: rgb(255, 238, 218);
@@ -24,8 +28,11 @@ body {
     text-align: center;
     padding: 1em;
     margin: 1em;
-    text-shadow: 0 0 5px grey;
     font-size: 1.2em;
+}
+
+.header > h1 {
+    color: rgba(78, 0, 65, 0.801);
 }
 
 .container {
@@ -61,11 +68,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  font-weight: bold;
+  color: rgb(83, 83, 83);
 }
 
 /* Wellington CSS */
