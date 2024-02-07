@@ -1,12 +1,15 @@
+/* main page CSS */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
 }
 
 body {
     width: 100%;
-    background-color: bisque;
+    background-color: rgb(255, 238, 218);
 }
 
 .header {
@@ -55,4 +58,61 @@ a {
 
 a:hover {
   font-weight: bold;
+}
+
+/* Wellington CSS */
+
+.wellington {
+    color: rgb(83, 83, 83);
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.wellington-header {
+    color: rgba(78, 0, 65, 0.801);
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+.container-wellington {
+    background-color: white;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1.5em;
+    border-radius: 30px;
+    margin-bottom: 1em;
+}
+
+.container-wellington img {
+    width: 100%;
+    max-width: 650px;
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.container-wellington .ingredients {
+    background-color: rgba(255, 237, 255, 0.363);
+    margin-top: 1em;
+    padding: 2em;
+    margin-bottom: 1em;
+}
+
+ul {
+    padding: 1em;
+}
+
+ul > li {
+    padding-left: 1em;
+    list-style: none;
+    color: rgb(68, 0, 68);
+    line-height: 1.3em;
+}
+
+ol > li {
+    padding-left: 1em;
+    line-height: 1.1em;
+    margin-bottom: 1.2em;
 }
