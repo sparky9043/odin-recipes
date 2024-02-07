@@ -95,14 +95,17 @@ a {
     font-family: 'Young Serif';
     font-weight: 400;
     margin-left: 0.5em;
+    text-shadow: 0 0 1px grey;
 }
 
 h1.wellington-header {
     color: rgb(43, 43, 43);
+    text-shadow: 0 0 1px grey;
 }
 
 h3.wellington-header {
     color: #774058;
+    text-shadow: 0 0 1px grey;
 }
 
 .container-wellington {
@@ -139,6 +142,7 @@ h3.wellington-header {
 
 h2.wellington-header {
     margin-top: 1em;
+    text-shadow: 0 0 1px grey;
 }
 
 .container-wellington .directions {
@@ -153,7 +157,6 @@ ul {
 ul > li {
     padding-left: 0.5em;
     list-style: none;
-    color: rgb(83, 83, 83);
     line-height: 1.5em;
 }
 
