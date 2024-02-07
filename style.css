@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid red;
+    width: 100%;
+}
+
+.container {
+    border: 5px solid blue;
+}
