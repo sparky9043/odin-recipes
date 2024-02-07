@@ -5,10 +5,54 @@
 }
 
 body {
-    border: 5px solid red;
     width: 100%;
+    background-color: bisque;
+}
+
+.header {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    text-shadow: 0 0 5px grey;
 }
 
 .container {
-    border: 5px solid blue;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1600px;
+    border: 2px solid rgb(197, 134, 57);
+    padding: 2em;
+}
+
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+
+.recipes > .recipe-item {
+    text-align: center;
+    max-width: 400px;
+    font-size: 1.5em;
+}
+
+.container img {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
 }
