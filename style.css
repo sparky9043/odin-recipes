@@ -21,7 +21,7 @@
 
 body {
     width: 100%;
-    background-color: rgb(255, 238, 218);
+    background-color: hsl(30,18%,87%);
 }
 
 .header {
@@ -38,7 +38,7 @@ body {
 .container {
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     max-width: 1400px;
     padding: 2em;
     background-color: white;
@@ -48,19 +48,30 @@ body {
 .recipes {
     display: flex;
     flex-wrap: wrap;
-    gap: 2em;
 }
 
 
 .recipes > .recipe-item {
-    text-align: center;
-    max-width: 400px;
-    font-size: 1.5em;
+    text-align: left;
+    max-width: 350px;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.recipe-item > h2 {
+    font-weight: 600;
+    padding: 0.3em;
+}
+
+.recipe-item > p {
+    padding: 1em;
+    padding-left: 0.5em;
+    color: rgb(83, 83, 83);
 }
 
 .container img {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     height: 300px;
     object-fit: cover;
     border-radius: 15px;
@@ -72,17 +83,26 @@ a {
 }
 
 /* Wellington CSS */
-
 .wellington {
-    color: rgb(83, 83, 83);
+    color: rgb(105, 105, 105);
     box-sizing: border-box;
     margin: 0 auto;
+    padding: 2em;
 }
 
 .wellington-header {
-    color: rgba(78, 0, 65, 0.801);
+    color: #874b35;
     font-family: 'Young Serif';
     font-weight: 400;
+    margin-left: 0.5em;
+}
+
+h1.wellington-header {
+    color: rgb(43, 43, 43);
+}
+
+h3.wellington-header {
+    color: #774058;
 }
 
 .container-wellington {
@@ -92,7 +112,7 @@ a {
     margin: 0 auto;
     padding: 1.5em;
     border-radius: 30px;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .container-wellington img {
@@ -104,11 +124,26 @@ a {
     margin: 0 auto;
 }
 
+.container-wellington .intro {
+    line-height: 1.5em;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
 .container-wellington .ingredients {
-    background-color: rgba(255, 237, 255, 0.363);
-    margin-top: 1em;
+    background-color: hsl(330,100%,98%);
+    width: 90%;
+    margin: 0 auto;
     padding: 2em;
-    margin-bottom: 1em;
+}
+
+h2.wellington-header {
+    margin-top: 1em;
+}
+
+.container-wellington .directions {
+    margin: 0 auto;
+    padding: 1em 2em;
 }
 
 ul {
@@ -116,14 +151,18 @@ ul {
 }
 
 ul > li {
-    padding-left: 1em;
+    padding-left: 0.5em;
     list-style: none;
-    color: rgb(68, 0, 68);
-    line-height: 1.3em;
+    color: rgb(83, 83, 83);
+    line-height: 1.5em;
 }
 
 ol > li {
-    padding-left: 1em;
-    line-height: 1.1em;
+    padding-left: 0.8em;
+    line-height: 1.5em;
     margin-bottom: 1.2em;
+}
+
+ol {
+    list-style-position: outside;
 }
