@@ -36,19 +36,19 @@ body {
 }
 
 .container {
-    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    max-width: 1400px;
     padding: 2em;
     background-color: white;
     border-radius: 20px;
+    max-width: 60.5%;
+    margin: 0 auto;
 }
 
 .recipes {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
+    margin: 0 auto;
 }
 
 
