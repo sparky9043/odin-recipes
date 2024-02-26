@@ -49,7 +49,7 @@ body {
 
 .recipes {
     display: flex;
-    gap: 3em;
+    gap: 1.6em;
     margin: 0 auto;
     flex-wrap: wrap;
 }
