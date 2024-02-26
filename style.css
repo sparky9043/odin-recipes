@@ -54,11 +54,10 @@ body {
     flex-wrap: wrap;
 }
 
-
 .recipes > .recipe-item {
     text-align: center;
-    max-width: 350px;
-    font-size: 1em;
+    max-width: 19vw;
+    font-size: 1.1em;
 }
 
 .recipe-item > h2 {
