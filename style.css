@@ -63,6 +63,7 @@ body {
 .recipe-item > h2 {
     font-weight: 600;
     padding: 0.3em;
+    font-size: 1.7em;
 }
 
 .recipe-item > p {
@@ -83,7 +84,11 @@ a {
   font-family: 'Young Serif';
   font-weight: 400;
   text-decoration: none;
-  color: rgb(83, 83, 83);
+  color: rgba(78, 0, 65, 0.801);
+}
+
+a:hover {
+  text-shadow: 0 0 2px grey;
 }
 
 /* Wellington CSS */
