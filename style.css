@@ -22,6 +22,8 @@
 body {
     width: 100%;
     background-color: hsl(30,18%,87%);
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -40,15 +42,16 @@ body {
     padding: 2em;
     background-color: white;
     border-radius: 20px;
-    max-width: 65%;
+    min-width: 0;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .recipes {
     display: flex;
-    flex-wrap: wrap;
     gap: 3em;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 
