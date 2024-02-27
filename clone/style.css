@@ -10,3 +10,82 @@ Colors
   Dark Grey: rgb(43, 43, 43);
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Font Class */
+.young-serif {
+  font-family: 'Young Serif', sans-serif;
+}
+
+
+body {
+  background-color: hsl(30,18%,87%);
+}
+
+.header {
+  text-align: center;
+  margin: 1em;
+}
+
+.container {
+  display: flex;
+}
+
+.recipe-container {
+  display: flex;
+  border-radius: 20px;
+  background-color: white;
+  gap: 2em;
+  margin: 1em auto;
+  padding: 2em;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  max-width: 20vw;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgb(49, 49, 49);
+}
+
+.recipe h2 {
+  margin: 0.5em 0 0.1em 1.1em;
+  font-family: 'Young Serif', sans-serif;
+}
+
+.recipe p {
+  padding: 1.5em;
+  font-family: 'Outfit', sans-serif, Arial, Helvetica;
+  font-size: 18px;
+  color: rgb(83, 83, 83);
+  text-shadow: 0 0 1px rgba(36, 35, 35, 0.499);
+  padding-top: 0.5em;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(78, 0, 65, 0.801);
+  font-weight: 700;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-shadow: 0 0 1px grey;
+}
+
+a:hover {
+  text-shadow: 0 0 4px grey;
+}
+
+.recipe img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
